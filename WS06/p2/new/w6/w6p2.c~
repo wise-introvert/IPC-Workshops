@@ -1,11 +1,11 @@
 /*
 	==================================================
-	Workshop #6 (Part-1):
+	Workshop #6 (Part-2):
 	==================================================
-	Name   : 
-	ID     : 
-	Email  : 
-	Section: 
+	Name   :
+	ID     :
+	Email  :
+	Section:
 */
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -15,9 +15,12 @@
 #include <string.h>
 
 
-// User Libraries
-#include "w6p1.h"
+// User-Defined Libraries
+#include "w6p2.h"
 
+
+// ----------------------------------------------------------------------------
+// PART-1
 int i;
 
 // 1. Get user input of int type and validate for a positive non-zero number
@@ -86,6 +89,47 @@ void displayCatFoodHeader(void)
 void displayCatFoodData(const int sku, const double *price, const int calories, const double *weight) {
   printf("%07d %10.2lf %10.1lf %8d\n", sku, *price, *weight, calories);
 }
+
+// ----------------------------------------------------------------------------
+// PART-2
+
+// 8. convert lbs: kg (divide by 2.20462)
+
+
+// 9. convert lbs: g (call convertKG, then * 1000)
+
+
+// 10. convert lbs: kg and g
+
+
+// 11. calculate: servings based on gPerServ
+
+
+// 12. calculate: cost per serving
+
+
+// 13. calculate: cost per calorie
+
+
+// 14. Derive a reporting detail record based on the cat food product data
+
+
+// 15. Display the formatted table header for the analysis results
+void displayReportHeader(void)
+{
+	printf("Analysis Report (Note: Serving = %dg\n", ???);
+	printf("---------------\n");
+	printf("SKU         $Price    Bag-lbs     Bag-kg     Bag-g Cal/Serv Servings  $/Serv   $/Cal\n");
+	printf("------- ---------- ---------- ---------- --------- -------- -------- ------- -------\n");
+}
+
+// 16. Display the formatted data row in the analysis table
+
+
+// 17. Display the findings (cheapest)
+
+
+// ----------------------------------------------------------------------------
 
 // 7. Logic entry point
 void start() {

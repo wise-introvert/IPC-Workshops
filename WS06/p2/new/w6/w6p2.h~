@@ -1,13 +1,25 @@
 /*
 	==================================================
-	Workshop #6 (Part-1):
+	Workshop #6 (Part-2):
 	==================================================
-	Name   : Fardeen Sohil Panjwani
-	ID     : 119588218
-	Email  : fspanjwani@myseneca.ca
-	Section: ZEE
+	Name   :
+	ID     :
+	Email  :
+	Section:
 */
 
+// ----------------------------------------------------------------------------
+// defines/macros
+
+
+// ----------------------------------------------------------------------------
+// structures
+
+
+// ----------------------------------------------------------------------------
+// function prototypes
+
+// PART-1
 #define MAX_PRODUCTS 3
 #define SUGGESTED_SERVING 64
 
@@ -51,3 +63,41 @@ void displayCatFoodData(const int sku, const double *price, const int calories, 
 
 // 7. Logic entry point
 void start();
+
+// ----------------------------------------------------------------------------
+// PART-2
+
+// 8. convert lbs: kg
+
+
+// 9. convert lbs: g
+
+
+// 10. convert lbs: kg / g
+
+
+// 11. calculate: servings based on gPerServ
+
+
+// 12. calculate: cost per serving
+
+
+// 13. calculate: cost per calorie
+
+
+// 14. Derive a reporting detail record based on the cat food product data
+
+
+// 15. Display the formatted table header for the analysis results
+void displayReportHeader(void);
+
+// 16. Display the formatted data row in the analysis table
+
+
+// 17. Display the findings (cheapest)
+
+
+// ----------------------------------------------------------------------------
+
+// 7. Logic entry point 
+
